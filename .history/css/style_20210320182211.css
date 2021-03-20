@@ -704,7 +704,7 @@ body {
 .box-form {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: baseline;
   flex-direction: column;
 }
 

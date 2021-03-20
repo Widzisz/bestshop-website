@@ -704,7 +704,7 @@ body {
 .box-form {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -728,15 +728,58 @@ body {
   margin-top: 30px;
   width: 405px;
   height: 108px;
-  display: flex;
-  align-items: baseline;
-  flex-direction: row;
 }
 
 .box__agreement-label {
+  display: block;
+
+  position: relative;
+
+  padding-left: 35px;
+
+  margin-bottom: 12px;
+
+  cursor: pointer;
 }
 
 .box__agreement-input {
+  position: absolute;
+
+  opacity: 0;
+
+  cursor: pointer;
+
+  height: 0;
+
+  width: 0;
+}
+
+.box__agreement-label .box__agreement-input {
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  height: 25px;
+
+  width: 25px;
+
+  background-color: var(--color-white);
+
+  border: 1px solid var(--color-grey);
+
+  border-radius: 4px;
+}
+
+.box__agreement-label input:checked ~ .box__agreement-input {
+  background-image: url(../images/checkmark-2dobry.svg);
+
+  background-position: center;
+
+  background-size: 50%;
+
+  background-repeat: no-repeat;
 }
 
 .box__agreement-text {
@@ -746,12 +789,13 @@ body {
   color: #707070;
 }
 
+
 .box__agreement-btn {
-  width: 226px;
-  height: 57px;
-  margin-top: 20px;
-  background: var(--c-primary);
-  box-shadow: 5px 10px 14px #07ace629;
-  border-radius: 35px;
+  font-size: 0.8125rem;
+
+  padding: 20px 97px;
+
   align-self: flex-end;
+
+  margin-top: 20px;
 }

@@ -704,7 +704,7 @@ body {
 .box-form {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -728,15 +728,13 @@ body {
   margin-top: 30px;
   width: 405px;
   height: 108px;
-  display: flex;
-  align-items: baseline;
-  flex-direction: row;
-}
-
-.box__agreement-label {
 }
 
 .box__agreement-input {
+  display: inline-block;
+  cursor: pointer;
+  background-image: url(../images/checkmark-1.svg);
+  background-repeat: no-repeat;
 }
 
 .box__agreement-text {
@@ -746,12 +744,15 @@ body {
   color: #707070;
 }
 
-.box__agreement-btn {
-  width: 226px;
-  height: 57px;
-  margin-top: 20px;
-  background: var(--c-primary);
-  box-shadow: 5px 10px 14px #07ace629;
-  border-radius: 35px;
-  align-self: flex-end;
+.box__agreement label:before {
+  content: url(../images/checkmark.svg);
+  /* background-repeat: no-repeat; */
+  position: absolute;
+  z-index: 100;
 }
+
+
+.box__agreement input[type=checkbox] {
+  display: none;
+}
+

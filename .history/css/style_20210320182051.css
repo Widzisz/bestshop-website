@@ -704,7 +704,7 @@ body {
 .box-form {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -729,6 +729,7 @@ body {
   width: 405px;
   height: 108px;
   display: flex;
+
   align-items: baseline;
   flex-direction: row;
 }

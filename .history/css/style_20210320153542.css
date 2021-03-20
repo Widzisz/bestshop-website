@@ -651,7 +651,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 114px;
 }
 
 .box-questions {
@@ -659,20 +658,22 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
-.box-questions__title {
+.box-questions__title{
   text-align: left;
-  font: normal normal normal 49px/57px var(--font-raleway);
-  letter-spacing: 0px;
-  color: var(--c-black);
+font: normal normal normal 49px/57px var(--font-raleway);
+letter-spacing: 0px;
+color: var(--c-black);
 }
+
 
 .box-questions__text {
   text-align: left;
   font: normal normal normal 16px/22px var(--font-open);
   letter-spacing: 0px;
-  color: var(--c-black);
+  color:  var(--c-black);
 }
 
 .box-questions-row-1 {
@@ -680,78 +681,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+
 }
+
 
 .box-questions-row-1-text {
   text-align: left;
-  font: normal normal 600 16px/22px var(--font-open);
-  letter-spacing: 0px;
-  color: var(--c-grey);
-  padding-left: 10px;
-}
+font: normal normal 600 16px/22px var(--font-open);
+letter-spacing: 0px;
+color: var(--c-grey);
 
-.box-questions-row-image {
-  padding-left: 20px;
-}
-
-.box__2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.box-form {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-}
-
-.form__text {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  font: normal normal bold 11px/15px var(--font-open);
-  letter-spacing: 3.28px;
-  color: var(--c-primary);
-}
-
-.form__space {
-  border: none;
-  border-bottom: 1px solid #95989a;
-  padding: 5px 10px;
-  outline: none;
-}
-
-.box__agreement {
-  margin-top: 30px;
-  width: 405px;
-  height: 108px;
-  display: flex;
-  align-items: baseline;
-  flex-direction: row;
-}
-
-.box__agreement-label {
-}
-
-.box__agreement-input {
-}
-
-.box__agreement-text {
-  text-align: left;
-  font: normal normal normal 12px/17px var(--font-open);
-  letter-spacing: 0px;
-  color: #707070;
-}
-
-.box__agreement-btn {
-  width: 226px;
-  height: 57px;
-  margin-top: 20px;
-  background: var(--c-primary);
-  box-shadow: 5px 10px 14px #07ace629;
-  border-radius: 35px;
-  align-self: flex-end;
 }
