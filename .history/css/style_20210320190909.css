@@ -783,7 +783,6 @@ body {
 .logo-2 {
 }
 .logo__title-2 {
-  padding-top: 20px;
   text-align: left;
   font: normal normal 300 26px/30px var(--font-raleway);
   letter-spacing: 0px;
@@ -797,12 +796,14 @@ body {
   color: var(--c-grey);
 }
 
+
 .footer__box-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
 }
+
 
 .facebook {
   width: 24px;

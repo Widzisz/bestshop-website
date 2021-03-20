@@ -797,12 +797,14 @@ body {
   color: var(--c-grey);
 }
 
+
 .footer__box-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
 }
+
 
 .facebook {
   width: 24px;
