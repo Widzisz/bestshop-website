@@ -109,7 +109,7 @@ body {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: bottom;
 }
 
 .welcome__rows {
@@ -459,3 +459,185 @@ body {
   position: absolute;
   z-index: 0;
 }
+
+/* -------------------------------------------------------------------------
+                             SEKCJA CZWARTA
+------------------------------------------------------------------------- */
+
+.hero-3 {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: var(--c-white);
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing__title {
+  text-align: center;
+  font: normal normal normal 36px/42px var(--font-raleway);
+  letter-spacing: 0px;
+  color: var(--c-black);
+}
+
+.pricing__boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 59px;
+}
+
+.box-1 {
+  width: 372px;
+  border-radius: 18px;
+  border: 1px solid var(--c-redish);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+.box__title {
+  text-align: left;
+  font: normal normal bold 20px/1px var(--font-raleway);
+  letter-spacing: 0px;
+  color: var(--c-black);
+  padding-top: 30px;
+}
+
+.box__price {
+  text-align: left;
+  font: normal normal 300 46px/2px var(--font-open);
+  letter-spacing: 0px;
+  color: var(--c-redish);
+}
+
+.box__rows {
+}
+
+.box__rows-last {
+  margin-bottom: 55px;
+}
+
+.box__rows-1 {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box__rows-image {
+  padding-right: 10px;
+}
+
+.box__rows-1-text {
+  text-align: center;
+  font: normal normal normal 14px/41px var(--font-open);
+  letter-spacing: 0px;
+  color: var(--c-black);
+}
+
+.box-1__btn {
+  background: var(--c-redish);
+  border-radius: 23px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 95%;
+  z-index: 1;
+}
+
+.box-1__btn-a {
+  text-align: left;
+  font: normal normal bold 13px/41px var(--font-open);
+  letter-spacing: 0px;
+  color: var(--c-white);
+  text-decoration: none;
+}
+
+.box-2 {
+  width: 405px;
+  border-radius: 18px;
+  border: 1px solid var(--c-primary);
+  box-shadow: 5px 10px 27px #07ace629;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+.box-2__btn {
+  background: var(--c-primary);
+  border-radius: 23px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 95%;
+  z-index: 1;
+}
+
+.box__price-2 {
+  text-align: left;
+  font: normal normal 300 46px/2px var(--font-open);
+  letter-spacing: 0px;
+  color: var(--c-primary);
+}
+
+.box__undertitle {
+  text-align: left;
+  font: normal normal bold 12px/1px var(--font-raleway);
+  letter-spacing: 0px;
+  color: var(--c-black);
+}
+
+.box-3 {
+  width: 372px;
+  min-height: 461px;
+  border-radius: 18px;
+  border: 1px solid var(--c-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+.box__price-3 {
+  text-align: left;
+  font: normal normal 300 46px/2px var(--font-open);
+  letter-spacing: 0px;
+  color: var(--c-green);
+}
+
+.box-3__btn {
+  background: var(--c-green);
+  border-radius: 23px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 95%;
+  z-index: 1;
+}
+
+/* -------------------------------------------------------------------------
+                             SEKCJA PIATA
+------------------------------------------------------------------------- */
