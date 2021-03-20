@@ -1,0 +1,103 @@
+:root {
+  --c-primary: #08a6e4;
+  --c-primary-shadow: rgba(7, 172, 230, 0.16);
+  --c-redish: #fb3b64;
+  --c-green: #55dfb4;
+  --c-black: #000000;
+  --c-grey: #a5a5a5;
+  --c-light-grey: #f7f7f7;
+  --c-white: #ffffff;
+  --font-open: "Open Sans", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --cursor-pointer: pointer;
+}
+
+html {
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* -------------------------------------------------------------------------
+                           NAGŁÓWEK                                                 
+------------------------------------------------------------------------- */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--c-white);
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: var(--c-white);
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.header .container {
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+}
+
+.logo__title {
+  text-align: left;
+  text-decoration: none;
+  color: var(--c-primary);
+  letter-spacing: 0px;
+  opacity: 1;
+  font: normal normal 300 32px/37px var(--font-raleway);
+  cursor: var(--cursor-pointer);
+}
+
+.menu {
+}
+.menu__list {
+  list-style-type: none;
+  display: flex;
+}
+.menu__list a {
+  padding: 0 50px;
+  text-decoration: none;
+  text-align: center;
+  font: normal normal bold 11px/15px var(--font-open);
+  letter-spacing: 3.28px;
+  color: var(--c-black);
+  opacity: 1;
+  position: relative;
+}
+
+.menu__list a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 40px;
+  left: 0;
+  background-color: var(--c-primary);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.menu__list a:hover::before {
+  visibility: visible;
+  transform: scaleX(3);
+}

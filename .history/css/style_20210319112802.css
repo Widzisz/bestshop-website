@@ -1,0 +1,52 @@
+:root {
+  --c-primary: #08a6e4;
+  --c-primary-shadow: rgba(7, 172, 230, 0.16);
+  --c-redish: #fb3b64;
+  --c-green: #55dfb4;
+  --c-black: #000000;
+  --c-grey: #a5a5a5;
+  --c-light-grey: #f7f7f7;
+  --c-white: #ffffff;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+    
+  margin: 0;
+}
+
+/* -----------------------------------------------------
+              Logo + Pasek Menu
+----------------------------------------------------- */
+
+.hero {
+  width: 100%;
+  min-height: 700px;
+    background-image: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.header {
+   
+}
+.container {
+    width: 1352px;
+    margin: 0;
+
+
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+}
