@@ -1,0 +1,19 @@
+$font: "Nunito Sans222xxx", sans-serif;
+$c-main: yellow;
+$c-second: blue;
+
+header {
+    background: red;
+    padding: 20px;
+    color: $c-main;
+    background-color: $c-second;
+
+    //to do poprawy
+    h1 {
+        font-family: $font;
+        color: white;
+        font-size: 100px;
+    }
+}
+
+
