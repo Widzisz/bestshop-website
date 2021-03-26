@@ -1,19 +1,14 @@
-$font: "Nunito Sans222xxx", sans-serif;
-$c-main: yellow;
-$c-second: blue;
+@import "generic/reset";
 
-header {
-    background: red;
-    padding: 20px;
-    color: $c-main;
-    background-color: $c-second;
+@import "settings";
 
-    //to do poprawy
-    h1 {
-        font-family: $font;
-        color: white;
-        font-size: 100px;
-    }
-}
-
-
+@import "elements/base";
+@import "elements/buttons";
+@import "elements/header";
+@import "elements/opening";
+@import "elements/statistics";
+@import "elements/benefits";
+@import "elements/pricing";
+@import "elements/contact";
+@import "elements/form";
+@import "elements/footer";
